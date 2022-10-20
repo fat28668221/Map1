@@ -1,18 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
-public class S : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+
+public class FirstScript: MonoBehaviour
+{
+    private void Awake()
     {
-        
+        print("哈摟");
+    }
+    private void Start( )
+    {
+        print("<color=yellow>這是開始事件</color>");
     }
 }
