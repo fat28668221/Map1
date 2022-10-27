@@ -1,4 +1,4 @@
-
+ï»¿
 using UnityEngine;
 
 
@@ -7,10 +7,10 @@ public class FirstScript: MonoBehaviour
 {
     private void Awake()
     {
-        print("«¢ºO");
+        print("å“ˆæ‘Ÿ");
     }
     private void Start( )
     {
-        print("<color=yellow>³o¬O¶}©l¨Æ¥ó</color>");
+        print("<color=yellow>é€™æ˜¯é–‹å§‹äº‹ä»¶</color>");
     }
 }

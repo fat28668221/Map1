@@ -1,9 +1,9 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 namespace Justin
 {
     /// <summary>
-    /// ¾Ç²ßÄæ¦ì Field
+    /// å­¸ç¿’æ¬„ä½ Field
     /// </summary>
     public class LeamField : MonoBehaviour
     {
@@ -12,14 +12,14 @@ namespace Justin
         public float speed = 3.5F;
         public float jump  = 7.5F;
 
-        public string NamePlayer = "¤pÃM¤h";
+        public string NamePlayer = "å°é¨å£«";
 
         public bool isPass = false;
         public bool hasWeapon = true;
 
-        [Header("¦å¶q")]
+        [Header("è¡€é‡")]
         public int hp = 50;
-        [Tooltip("ª±®a¹Cª±¸g¹Lªº®É¶¡")]
+        [Tooltip("ç©å®¶éŠç©ç¶“éçš„æ™‚é–“")]
         public float time = 10.5f;
 
         [Range(1, 99)]
