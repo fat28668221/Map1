@@ -17,7 +17,17 @@ namespace Justin
             //SpawnBullet();
 
             //延遲
-            InvokeRepeating("SpawnBullet", 0 , interval);
+            
+        }
+
+        private void OnBecameVisible()
+        {
+            InvokeRepeating("SpawnBullet", 0, interval);
+        }
+
+        private void OnBecameInvisible()
+        {
+            Destroy(gameObject);
         }
     }
 }
