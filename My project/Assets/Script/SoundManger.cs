@@ -1,9 +1,9 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 namespace Justin
 {
     /// <summary>
-    /// ­µ®ÄºŞ²z¾¹
+    /// éŸ³æ•ˆç®¡ç†å™¨
     /// </summary>
     [RequireComponent(typeof(AudioSource))]
     public class SoundManger : MonoBehaviour
